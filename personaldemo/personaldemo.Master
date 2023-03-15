@@ -1,0 +1,90 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="personaldemo.master.cs" Inherits="personaldemo.personaldemo" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+     <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="personal.css" type="text/css" rel="stylesheet" />
+    <link href="personal.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+           <header>
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-toggler" >
+                     <span class="navbar-toggler-icon "></span>
+                    </button>
+                    <div class="collapse navbar-collapse " id="navbar-toggler">
+                        <ul class="navbar-nav ml-auto content" > 
+                            <li class="nav-item">
+                                <a href="index.aspx"  class="active nav-link content">Home</a>
+                                </li>&nbsp;&nbsp;&nbsp;
+
+                            <li class="nav-item">
+                                <a href="contactus.aspx"  class="nav-link content">Contact us</a>
+                            </li >&nbsp;&nbsp;&nbsp;
+                            <li class="nav-item">
+                                <a href="Aboutus.aspx"  class="nav-link content">About </a>
+                            </li>&nbsp;&nbsp;&nbsp;
+                            
+                            <li class="nav-item">
+                                 <a href="#" class="nav-link content" runat="server">Aarticals</a>
+                            </li>&nbsp;&nbsp;&nbsp;
+                            <li class="nav-item">                         
+                                <a href="#" class="nav-link content" runat="server">Advice</a>
+                            </li>
+                            <li class="nav-item" >
+                               <a href="loginpage.aspx" id="login1" runat="server" class="nav-link" >Login</a>
+                               <asp:LinkButton ID="LinkButton1" runat="server">Logout</asp:LinkButton>
+                           </li>
+                        </ul>
+                      
+                    </div>
+                     
+                </nav>
+            </div>
+           </header>
+            <div>
+               <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+               </asp:ContentPlaceHolder>
+           </div>
+            <div >
+                <section>
+
+                </section>
+            </div>          
+            <footer class="card-footer" style="background-color:#e1711e;">
+                   <div  class="blockquote-footer container-md">
+                      <div class="row">
+                          <div class="col-md-3"></div>
+                          <div class= "col-md-6">
+                            <a href="#">  <i class="fa fa-2x fa-twitter circle"></i></a>&nbsp;&nbsp; &nbsp; 
+                             <a href="https://www.facebook.com/"> <i class="fa fa-2x  fa-facebook circle"></i></a>&nbsp;&nbsp; &nbsp; 
+                             <a href="#"> <i class="fa fa-2x  fa-google-plus circle"></i></a>&nbsp;&nbsp; &nbsp; 
+                             <a href="#"> <i class="fa fa-2x  fa-dribbble circle"></i></a>&nbsp;&nbsp; &nbsp; 
+                             <a href="#"> <i class="fa fa-2x  fa-pinterest circle"></i>  </a>  &nbsp;&nbsp; &nbsp;                                     
+                             <a href="#"> <i class="fa fa-2x  fa-youtube circle"></i></a>&nbsp;&nbsp; &nbsp; 
+                          </div>
+                          <div class="col-md-3"></div>
+                      </div>
+                   </div>
+               </footer>
+           
+            <!--- bootatrap -->
+          <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        </div>
+    </form>
+</body>
+</html>

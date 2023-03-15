@@ -1,0 +1,142 @@
+﻿body {
+    margin:auto;
+    padding:inherit;
+    text-decoration:initial;
+    text-decoration-style:inherit;
+}
+.login{
+    margin-left:120px;/*margin for login link in left side*/
+}
+.navbar{
+    background-color:white;
+    width:100%;
+    position:relative;
+    display:inline-block;
+
+}
+.nav-link{
+    color:#f56506;
+}
+.nave-item a:hover {
+     background-color:wheat;
+
+}
+/*.active{
+    background-color:#808080
+}*/
+.contact{
+    margin:inherit;
+    padding:0px;
+    margin-top:8px;
+}
+.card-footer {
+    background-image:linear-gradient(to right, #fb6c0d, #ffbf3d);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+}
+
+@media (max-height:800px) {
+    footer {
+        position: static;
+    }
+
+    header {
+        padding-top: 40px;
+
+}
+.index {
+    /*background-image: url('images/5b33d884e3d6297e62eaec64d518f8ad.jpg');*/
+    background-image:linear-gradient(to right, #faab4a, #f66f15);
+    background-size: cover;
+    background-position: center; /*position set an center*/
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 800px;
+}
+    .index .h {
+        /*position:absolute;
+    bottom:0;*/
+        /*background: rgb(0, 0, 10); /*fall back color*/
+        /*background: rgba(0, 0, 0, 0.3); */ 
+        color: #f1f1f1;
+        height: 800px;
+        margin: auto;
+        padding: 180px;
+        font-family: sans-serif;
+    }
+.circle {
+    border-radius: 50%;
+    margin: 8px;
+    font-size:10px ;
+    background:white;
+    
+}
+
+.fa-twitter {
+    background: #4099FF;
+    color: #f1f1f1;
+    padding: 5px 7px;
+}
+
+.fa-google-plus {
+    color: #d13030;
+    background:#f1f1f1;
+    padding:5px 5px;
+}
+
+.fa-dribbble {
+    color: #ea4c89;
+    background: #f1f1f1;
+    padding: 5px 7px;
+}
+
+.fa-pinterest {
+    color: #cb2027;
+    background: #f1f1f1;
+    padding: 5px 7px;
+}
+
+.fa-facebook {
+    background: #4099FF;
+    color: white;
+    padding: 5px 9px;
+}
+
+.fa-youtube {
+    background: #f1f1f1;
+    color: #d13030;
+    padding: 5px 7px;
+}
+.table{
+    margin-top:20px;
+    padding:5px;
+    margin:auto;
+    text-decoration:initial;
+}
+.mail{
+    color:#f56506;
+}
+.contact-form{
+    margin-top:30px;
+    margin:5px;
+    padding:20px;
+}
+.li{
+    position:relative;
+    display:inline-block;
+}
+
+/*.content:hover{
+    background-color:black;
+}*/
+
+  
